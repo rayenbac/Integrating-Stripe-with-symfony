@@ -51,7 +51,7 @@ class PaymentController extends AbstractController
             ],
             'quantity' => 1
         ];
-        Stripe::setApiKey('sk_test_51Kb6uhClAQQ2TXfzOspWIks7VFbXX5e5ZTr5c4VCIQfNJATKvQZDHBODlaDkCnNmYntKUQLZK8YF4UbNPA5gMWzg00RHLAzE0G');
+        Stripe::setApiKey('aaaaaaaaaaaaaa test');
         header('Content-Type: application/json');
 
         $YOUR_DOMAIN = 'https://ecommerce.tristan-bonnal.fr';
